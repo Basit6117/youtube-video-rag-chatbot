@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="sidepanel.css"><title>Video Chat</title></head>
+  <body>
+    <main>
+      <h1>Video Chat</h1>
+      <p id="video-status">Checking the current tab…</p>
+      <button id="summarize" disabled>Explain this video simply</button>
+      <section id="messages" aria-live="polite"></section>
+      <form id="chat-form">
+        <textarea id="question" placeholder="Ask about this video…" rows="3" disabled></textarea>
+        <button id="send" type="submit" disabled>Send</button>
+      </form>
+    </main>
+    <script src="sidepanel.js"></script>
+  </body>
+</html>

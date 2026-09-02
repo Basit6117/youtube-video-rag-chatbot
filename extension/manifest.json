@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Video Chat",
+  "version": "0.1.0",
+  "description": "Ask questions about the YouTube video you are watching.",
+  "permissions": ["activeTab", "sidePanel", "tabs"],
+  "host_permissions": ["https://www.youtube.com/*", "http://localhost:8000/*"],
+  "background": { "service_worker": "background.js" },
+  "side_panel": { "default_path": "sidepanel.html" },
+  "action": { "default_title": "Open Video Chat" }
+}

@@ -1,0 +1,8 @@
+:root { font-family: Arial, sans-serif; color: #182230; background: #f8fafc; }
+body { margin: 0; } main { display: flex; min-height: 100vh; box-sizing: border-box; padding: 16px; gap: 12px; flex-direction: column; }
+h1 { font-size: 20px; margin: 0; } #video-status { margin: 0; color: #526070; font-size: 13px; }
+button { border: 0; border-radius: 8px; padding: 10px 12px; background: #2563eb; color: white; cursor: pointer; font-weight: 600; }
+button:disabled { opacity: .5; cursor: not-allowed; } #messages { flex: 1; overflow-y: auto; display: flex; gap: 9px; flex-direction: column; }
+.message { border-radius: 10px; padding: 10px; line-height: 1.4; white-space: pre-wrap; font-size: 14px; }
+.user { background: #dbeafe; align-self: flex-end; } .assistant { background: white; border: 1px solid #e2e8f0; }
+form { display: flex; gap: 8px; } textarea { flex: 1; resize: vertical; border: 1px solid #cbd5e1; border-radius: 8px; padding: 9px; font: inherit; }
